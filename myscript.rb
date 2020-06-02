@@ -1,3 +1,7 @@
 #!/usr/bin/env ruby
 
-puts "Hello World!"
+if ARGV.length == 1
+        puts "The parameter is: " << ARGV[0]
+else
+        puts "Please enter a parameter!"
+end
